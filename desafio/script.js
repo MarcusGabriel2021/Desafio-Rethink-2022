@@ -21,12 +21,14 @@ function funcao_buscar() {
     console.log(encontrado);
 
 }
+
 function funcao_retornar_nomes(){
 
     let nomes = pessoas.map(pessoa => pessoa.name);
     console.log(nomes);
 
 }
+
 function inserir_id(){
 
     let id = 0;
@@ -37,6 +39,7 @@ function inserir_id(){
     console.log(pessoas);
 
 }
+
 function maior_de_idade(){
 
     let pessoas_maior_de_idade = pessoas.map(pessoa => {if (pessoa.age >= 18) {
@@ -45,6 +48,7 @@ function maior_de_idade(){
     console.log(pessoas_maior_de_idade);
 
 }
+
 function media_de_idade(){
 
     let idades = pessoas.map(pessoa => pessoa.age);
